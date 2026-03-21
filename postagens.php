@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listagem de usuários</title>
+    <title>Listagem de posts</title>
     <link rel="stylesheet" href="tabelas.css">
     <link rel="stylesheet" href="dash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,10 +14,10 @@
         <main>
         <div class="header-content">
             <div class="header-title">
-                <h2>Gestão de Usuários</h2>
-                <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
+                <h2>Gestão de Postagens</h2>
+                <p>Visualize e gerencie as postagens do blog.</p>
             </div>
-            <a href="cad-usuario.php" class="btn-add">+ Novo usuário</a>
+            <a href="cad-usuario.php" class="btn-add">+ Novo post</a>
         </div>
 
         <div class="table-responsive">
@@ -25,9 +25,9 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Nome</th>
-                        <th>E-mail</th>
-                        <th>Acesso</th>
+                        <th>Título</th>
+                        <th>Conteúdo</th>
+                        <th>Categoria</th>
                         <th>Status</th>
                         <th>Ações</th>
                     </tr>
@@ -35,9 +35,9 @@
                 <tbody>
                     <tr>
                         <td>01</td>
-                        <td>Eric Freitas</td>
-                        <td>eric@unifev.edu.br</td>
-                        <td>Administrador</td>
+                        <td>As linguagens mais usadas</td>
+                        <td>Esse artigo irá abordar...</td>
+                        <td>Tecnologia</td>
                         <td><span class="badge ativo">Ativo</span></td>
                         <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                             <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
@@ -45,20 +45,10 @@
                     </tr>
                     <tr>
                         <td>02</td>
-                        <td>Ana Souza</td>
-                        <td>ana.souza@email.com</td>
-                        <td>Editor</td>
+                        <td>Automatizando com o N8N</td>
+                        <td>Esse artigo irá abordar...</td>
+                        <td>Automação</td>
                         <td><span class="badge ativo">Ativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
-                            <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
-                    </td>
-                    </tr>
-                    <tr>
-                        <td>03</td>
-                        <td>Carlos Lima</td>
-                        <td>carlos.lima@servidor.com</td>
-                        <td>Usuário</td>
-                        <td><span class="badge inativo">Inativo</span></td>
                         <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                             <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
                     </td>

@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Usuário</title>
     <link rel="stylesheet" href="dash.css">
+    <title>Dashboard</title>
 </head>
 <body>
-    <main>
+    <div class="dashboard-container">
+        <?php include 'menu.php' ?>
+        
+       <main>
         <section class="card-form"> 
             <div class="form-header">
                 <h2>Cadastro de usuário</h2>
@@ -40,10 +43,14 @@
 
             <div class="form-actions">
                 <button type="submit" class="btn-save">Finalizar Cadastro</button>
-                <a href="index.php" class="btn-cancel">Cancelar</a>
+                <a href="usuarios.php" class="btn-cancel">Cancelar</a>
             </div>
         </form>
         </section>
     </main>
+    </div>
+
+    <?php include 'rodape.php'; ?>
+
 </body>
 </html>
